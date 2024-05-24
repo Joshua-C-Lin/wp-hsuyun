@@ -1,0 +1,79 @@
+[17-May-2024 08:27:12 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/joshualin/Local Sites/fictional-university/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[18-May-2024 02:29:32 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 1 passed in /Users/joshualin/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 14 and at least 2 expected in /Users/joshualin/Local Sites/fictional-university/app/public/wp-includes/plugin.php:441
+Stack trace:
+#0 /Users/joshualin/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php(14): add_action('after_setup_the...')
+#1 /Users/joshualin/Local Sites/fictional-university/app/public/wp-settings.php(663): include('/Users/joshuali...')
+#2 /Users/joshualin/Local Sites/fictional-university/app/public/wp-config.php(103): require_once('/Users/joshuali...')
+#3 /Users/joshualin/Local Sites/fictional-university/app/public/wp-load.php(50): require_once('/Users/joshuali...')
+#4 /Users/joshualin/Local Sites/fictional-university/app/public/wp-admin/admin-ajax.php(22): require_once('/Users/joshuali...')
+#5 {main}
+  thrown in /Users/joshualin/Local Sites/fictional-university/app/public/wp-includes/plugin.php on line 441
+[18-May-2024 03:05:07 UTC] PHP Parse error:  syntax error, unexpected token "?", expecting end of file in /Users/joshualin/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php on line 54
+[19-May-2024 14:52:14 UTC] PHP Warning:  Undefined variable $theParent in /Users/joshualin/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single.php on line 20
+[19-May-2024 14:52:14 UTC] PHP Warning:  Undefined variable $theParent in /Users/joshualin/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single.php on line 21
+[20-May-2024 02:34:59 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function register_post_type(), 0 passed in /Users/joshualin/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 25 and at least 1 expected in /Users/joshualin/Local Sites/fictional-university/app/public/wp-includes/post.php:1778
+Stack trace:
+#0 /Users/joshualin/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php(25): register_post_type()
+#1 /Users/joshualin/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(324): university_post_types('')
+#2 /Users/joshualin/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 /Users/joshualin/Local Sites/fictional-university/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /Users/joshualin/Local Sites/fictional-university/app/public/wp-settings.php(695): do_action('init')
+#5 /Users/joshualin/Local Sites/fictional-university/app/public/wp-config.php(103): require_once('/Users/joshuali...')
+#6 /Users/joshualin/Local Sites/fictional-university/app/public/wp-load.php(50): require_once('/Users/joshuali...')
+#7 /Users/joshualin/Local Sites/fictional-university/app/public/wp-admin/admin-ajax.php(22): require_once('/Users/joshuali...')
+#8 {main}
+  thrown in /Users/joshualin/Local Sites/fictional-university/app/public/wp-includes/post.php on line 1778
+[20-May-2024 11:28:42 UTC] PHP Warning:  Array to string conversion in /Users/joshualin/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-event.php on line 36
+[20-May-2024 11:37:30 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /Users/joshualin/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-event.php on line 36
+[20-May-2024 11:42:09 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /Users/joshualin/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-event.php on line 39
+[20-May-2024 15:21:24 UTC] PHP Warning:  Undefined array key "size" in /Users/joshualin/Local Sites/fictional-university/app/public/wp-content/plugins/manual-image-crop/lib/ManualImageCropEditorWindow.php on line 39
+[21-May-2024 01:30:39 UTC] PHP Warning:  Undefined array key "size" in /Users/joshualin/Local Sites/fictional-university/app/public/wp-content/plugins/manual-image-crop/lib/ManualImageCropEditorWindow.php on line 39
+[21-May-2024 02:01:49 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/joshualin/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 12
+[21-May-2024 02:01:49 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/joshualin/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 12
+[21-May-2024 02:03:54 UTC] PHP Warning:  Undefined variable $result in /Users/joshualin/Local Sites/fictional-university/app/public/wp-includes/class-wp-image-editor.php on line 570
+[21-May-2024 02:03:54 UTC] PHP Warning:  Undefined variable $result in /Users/joshualin/Local Sites/fictional-university/app/public/wp-includes/class-wp-image-editor.php on line 570
+[21-May-2024 02:04:02 UTC] PHP Warning:  Undefined array key "size" in /Users/joshualin/Local Sites/fictional-university/app/public/wp-content/plugins/manual-image-crop/lib/ManualImageCropEditorWindow.php on line 39
+[21-May-2024 02:06:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/joshualin/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 12
+[21-May-2024 02:06:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/joshualin/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 12
+[21-May-2024 02:06:11 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/joshualin/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 12
+[21-May-2024 02:06:11 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/joshualin/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 12
+[21-May-2024 02:06:16 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/joshualin/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 12
+[21-May-2024 02:06:16 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/joshualin/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 12
+[21-May-2024 02:10:32 UTC] PHP Warning:  Array to string conversion in /Users/joshualin/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 15
+[21-May-2024 02:13:29 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/joshualin/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 14
+[21-May-2024 02:13:29 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/joshualin/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 14
+[21-May-2024 02:13:32 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/joshualin/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 14
+[21-May-2024 02:13:32 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/joshualin/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 14
+[21-May-2024 02:14:54 UTC] PHP Warning:  Undefined array key "title" in /Users/joshualin/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 7
+[21-May-2024 02:15:10 UTC] PHP Warning:  Undefined array key "title" in /Users/joshualin/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 7
+[21-May-2024 02:15:33 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Users/joshualin/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php:7
+Stack trace:
+#0 /Users/joshualin/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-professor.php(8): pageBanner('', '')
+#1 /Users/joshualin/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include('/Users/joshuali...')
+#2 /Users/joshualin/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/joshuali...')
+#3 /Users/joshualin/Local Sites/fictional-university/app/public/index.php(17): require('/Users/joshuali...')
+#4 {main}
+  thrown in /Users/joshualin/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 7
+[21-May-2024 02:18:10 UTC] PHP Warning:  Undefined array key "subtitle" in /Users/joshualin/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 11
+[21-May-2024 02:26:24 UTC] PHP Warning:  Undefined array key "photo" in /Users/joshualin/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 15
+[21-May-2024 02:26:31 UTC] PHP Warning:  Undefined array key "photo" in /Users/joshualin/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 15
+[21-May-2024 02:31:40 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Users/joshualin/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php:8
+Stack trace:
+#0 /Users/joshualin/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-professor.php(8): pageBanner('', '')
+#1 /Users/joshualin/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include('/Users/joshuali...')
+#2 /Users/joshualin/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/joshuali...')
+#3 /Users/joshualin/Local Sites/fictional-university/app/public/index.php(17): require('/Users/joshuali...')
+#4 {main}
+  thrown in /Users/joshualin/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 8
+[21-May-2024 03:07:22 UTC] PHP Warning:  Undefined array key "size" in /Users/joshualin/Local Sites/fictional-university/app/public/wp-content/plugins/manual-image-crop/lib/ManualImageCropEditorWindow.php on line 39
+[21-May-2024 03:11:59 UTC] PHP Warning:  Undefined array key "size" in /Users/joshualin/Local Sites/fictional-university/app/public/wp-content/plugins/manual-image-crop/lib/ManualImageCropEditorWindow.php on line 39
+[21-May-2024 08:30:35 UTC] PHP Warning:  Undefined variable $mapLocation in /Users/joshualin/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-campus.php on line 27
+[21-May-2024 08:30:35 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/joshualin/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-campus.php on line 27
+[21-May-2024 08:30:35 UTC] PHP Warning:  Undefined variable $mapLocation in /Users/joshualin/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-campus.php on line 27
+[21-May-2024 08:30:35 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/joshualin/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-campus.php on line 27
+[21-May-2024 08:30:35 UTC] PHP Warning:  Undefined variable $mapLocation in /Users/joshualin/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-campus.php on line 29
+[21-May-2024 08:30:35 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/joshualin/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-campus.php on line 29
+[24-May-2024 04:57:28 UTC] PHP Parse error:  syntax error, unexpected token ",", expecting "]" in /Users/joshualin/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 52
+[24-May-2024 04:57:28 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/joshualin/Local Sites/fictional-university/app/public/wp-includes/class-wp-recovery-mode-email-service.php on line 367
+[24-May-2024 04:57:28 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/joshualin/Local Sites/fictional-university/app/public/wp-includes/class-wp-recovery-mode-email-service.php on line 368
+[24-May-2024 12:42:51 UTC] Cron reschedule event error for hook: wp_privacy_delete_old_export_files, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
